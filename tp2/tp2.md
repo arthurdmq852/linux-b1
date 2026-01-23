@@ -38,6 +38,15 @@ broadcast :  10.33.79.255
 
 <img width="471" height="508" alt="Image" src="https://github.com/user-attachments/assets/5b49ec1c-7453-45d1-bf81-c722aa4ce411" />
 
+
+Pour obtenir l'adresse de la gateway, j'utilise la commande `route get default | grep gateway`
+
+
+```
+route get default | grep gateway
+    gateway: 10.33.79.254
+```
+
 #### Questions
 À quoi sert la gateway dans le réseau d'Ynov ?
 
