@@ -30,3 +30,8 @@ en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 nom : en0  
 adresse MAC : c2:c3:21:71:b7:50  
 adresse IP : 10.33.70.18  
+
+adresse réseau : 10.33.00.00
+broadcast :  10.33.79.255
+
+![Screenshot 2026-01-23 at 10.46.34](https://hackmd.io/_uploads/H1Y376eUWx.png)
