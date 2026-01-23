@@ -58,14 +58,13 @@ Sur le réseau d'Ynov, la gateway permet de relier les différents réseaux entr
 
 #### A. Modification d'adresse IP - pt. 1
 
+Tout d'abord l'adresse réseau est `10.33.64.0`
 
-La première IP disponible est `10.33.00.1` et la dernière `10.33.79.254`
-
-Sur ce screenshot, nous avons l'adresse IP et le masque, on peut donc obtenir l'adresse réseau
-
-
+Donc la première IP disponible est `10.33.64.1` et la dernière `10.33.79.254`.
+Comme les adresses de Réseau & Broadcast ne sont pas disponibles, on celles après & avant.
 
 <img width="435" height="162" alt="Image" src="https://github.com/user-attachments/assets/e0fa2b25-907b-4c34-9da2-1c3488479478" />
+
 
 
 
