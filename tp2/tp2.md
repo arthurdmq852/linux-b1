@@ -26,3 +26,4 @@ en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 	media: autoselect
 	status: active
 ```
+Donc on peut voir que l'`inet = 10.33.70.18`
