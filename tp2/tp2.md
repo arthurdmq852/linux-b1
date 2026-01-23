@@ -16,7 +16,7 @@ adresse de broadcast -->
 
 Pour commencer, j'ai utilisé la commande 'ifconfig'
 
-#### **Carte wifi** 
+#### **Interface wifi** 
 ```
 en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 	options=6460<TSO4,TSO6,CHANNEL_IO,PARTIAL_CSUM,ZEROINVERT_CSUM>
@@ -27,4 +27,6 @@ en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 	media: autoselect
 	status: active
 ```
-Donc on peut voir que l'`inet = 10.33.70.18`
+nom : en0
+adresse MAC : c2:c3:21:71:b7:50
+adresse IP : 10.33.70.18
