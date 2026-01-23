@@ -27,6 +27,6 @@ en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 	media: autoselect
 	status: active
 ```
-nom : en0 /n
+nom : en0 \n
 adresse MAC : c2:c3:21:71:b7:50
 adresse IP : 10.33.70.18
