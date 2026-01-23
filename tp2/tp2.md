@@ -34,4 +34,15 @@ adresse IP : 10.33.70.18
 adresse réseau : 10.33.00.00  
 broadcast :  10.33.79.255  
 
+### En graphique (GUI : Graphical User Interface)
+
 <img width="471" height="508" alt="Image" src="https://github.com/user-attachments/assets/5b49ec1c-7453-45d1-bf81-c722aa4ce411" />
+
+#### Questions
+À quoi sert la gateway dans le réseau d'Ynov ?
+
+Sur le réseau d'Ynov, la gateway permet de relier les différents réseaux entre eux.
+
+#### 2. Modifications des informations
+
+##### A. Modification d'adresse IP - pt. 1
