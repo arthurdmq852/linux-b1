@@ -54,7 +54,7 @@ gateway : 10.33.79.254
 
 Sur le réseau d'Ynov, la gateway permet de relier les différents réseaux entre eux.
 
-#### 2. Modifications des informations
+### 2. Modifications des informations
 
 #### A. Modification d'adresse IP - pt. 1
 
@@ -62,4 +62,4 @@ Sur le réseau d'Ynov, la gateway permet de relier les différents réseaux entr
 
 #### C. Modification d'adresse IP - pt. 2
 
-### II. Exploration locale en duo
+## II. Exploration locale en duo
