@@ -58,6 +58,14 @@ Sur le réseau d'Ynov, la gateway permet de relier les différents réseaux entr
 
 #### A. Modification d'adresse IP - pt. 1
 
+Sur ce screenshot, nous avons l'adresse IP et le masque, on peut donc obtenir l'adresse réseau
+
+<img width="435" height="162" alt="Image" src="https://github.com/user-attachments/assets/e0fa2b25-907b-4c34-9da2-1c3488479478" />
+
+Étant donné que 
+
+
+
 #### B. nmap
 
 #### C. Modification d'adresse IP - pt. 2
