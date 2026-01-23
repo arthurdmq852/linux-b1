@@ -13,3 +13,16 @@ déterminer, pour chacune d'entre elles :
 
 adresse de réseau
 adresse de broadcast -->
+
+Pour commencer, j'ai utilisé la commande 'ifconfig'
+
+```
+en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=6460<TSO4,TSO6,CHANNEL_IO,PARTIAL_CSUM,ZEROINVERT_CSUM>
+	ether c2:c3:21:71:b7:50
+	inet6 fe80::18f1:5783:bce9:c881%en0 prefixlen 64 secured scopeid 0xb 
+	inet 10.33.70.18 netmask 0xfffff000 broadcast 10.33.79.255
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect
+	status: active
+```
