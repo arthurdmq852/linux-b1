@@ -16,7 +16,7 @@ adresse de broadcast -->
 
 Pour commencer, j'ai utilisé la commande 'ifconfig'
 
-#### Carte wifi 
+#### **Carte wifi** 
 ```
 en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 	options=6460<TSO4,TSO6,CHANNEL_IO,PARTIAL_CSUM,ZEROINVERT_CSUM>
