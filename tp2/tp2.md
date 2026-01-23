@@ -34,4 +34,4 @@ adresse IP : 10.33.70.18
 adresse réseau : 10.33.00.00
 broadcast :  10.33.79.255
 
-![Screenshot 2026-01-23 at 10.46.34](https://hackmd.io/_uploads/H1Y376eUWx.png)
+<img width="471" height="508" alt="Image" src="https://github.com/user-attachments/assets/5b49ec1c-7453-45d1-bf81-c722aa4ce411" />
