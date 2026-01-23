@@ -31,7 +31,7 @@ nom : en0
 adresse MAC : c2:c3:21:71:b7:50  
 adresse IP : 10.33.70.18  
 
-adresse réseau : 10.33.00.00
-broadcast :  10.33.79.255
+adresse réseau : 10.33.00.00  
+broadcast :  10.33.79.255  
 
 <img width="471" height="508" alt="Image" src="https://github.com/user-attachments/assets/5b49ec1c-7453-45d1-bf81-c722aa4ce411" />
