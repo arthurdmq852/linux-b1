@@ -56,6 +56,6 @@ Sur le réseau d'Ynov, la gateway permet de relier les différents réseaux entr
 
 #### 2. Modifications des informations
 
-##### A. Modification d'adresse IP - pt. 1
+#### A. Modification d'adresse IP - pt. 1
 
-##### B. nmap
+#### B. nmap
