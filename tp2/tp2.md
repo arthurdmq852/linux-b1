@@ -62,6 +62,16 @@ Sur le réseau d'Ynov, la gateway permet de relier les différents réseaux entr
 
 <img width="943" height="284" alt="Image" src="https://github.com/user-attachments/assets/931b587a-9189-4636-972c-0913a39755fb" />
 
+```
+Adresse IP : 192.168.64.18
+Netmask : 255.255.255.0
+Broadcast : 192.168.64.255
+```
+
+Donc quand on calcule on obtient 
+
+`192.168.64.0`
+
 Tout d'abord l'adresse réseau que j'ai est `192.168
 
 Donc la première IP disponible est `10.33.64.1` et la dernière `10.33.79.254`.
