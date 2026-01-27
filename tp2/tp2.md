@@ -111,4 +111,17 @@ DHCP4.OPTION[3]:                        dhcp_server_identifier = 192.168.64.1
 DHCP4.OPTION[5]:                        expiry = 1769514754
 ```
 
-On a donc l'adresse IP du DHCP et son bail d'expiration
+On a donc l'adresse IP du DHCP et son bail d'expiration.
+
+Pour finir sur cette partie, j'ai demandé une nouvelle adresse au DHCP à l'aide de deux commandes.
+
+```
+sudo dhclient -r enp0s1
+sudo dhclient enp0s1
+```
+
+La première permettant de libérer l'adresse IP utilisé, la seconde pour en associer une nouvelle à ma carte réseau.
+
+<img width="906" height="407" alt="Image" src="https://github.com/user-attachments/assets/aca80feb-7565-4b7c-baa5-4db0b3182c6e" />
+
+### 2. DNS
