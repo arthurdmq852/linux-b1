@@ -67,10 +67,9 @@ Adresse IP : 192.168.64.18
 Netmask : 255.255.255.0
 Broadcast : 192.168.64.255
 ```
+J'en déduis que l'adresse réseau est `192.168.64.0`, car lorsque l'on superpose l'adresse IP et le netmask, on voit que le dernier numéro pour le netmask est 0.
 
-Donc quand on calcule on obtient 
-
-`192.168.64.0`
+Comme le broadcast utilise l'adresse `192.168.64.255`, on en déduit que la dernière adresse IP disponible est au moins `192.168.64.254`
 
 Tout d'abord l'adresse réseau que j'ai est `192.168
 
