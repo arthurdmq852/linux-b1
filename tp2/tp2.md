@@ -71,16 +71,14 @@ J'en déduis que l'adresse réseau est `192.168.64.0`, car lorsque l'on superpos
 
 Comme le broadcast utilise l'adresse `192.168.64.255`, on en déduit que la dernière adresse IP disponible est au moins `192.168.64.254`
 
-Tout d'abord l'adresse réseau que j'ai est `192.168
-
-Donc la première IP disponible est `10.33.64.1` et la dernière `10.33.79.254`.
-Comme les adresses de Réseau & Broadcast ne sont pas disponibles, on celles après & avant.
-
-<img width="435" height="162" alt="Image" src="https://github.com/user-attachments/assets/e0fa2b25-907b-4c34-9da2-1c3488479478" />
 
 #### B. nmap
 
-Pour continuer, j'ai scanné l'adresse réseau que j'ai obtenu avec 
+Pour continuer, j'ai scanné l'adresse réseau que j'ai obtenu à l'aide les opérations précédentes.
+
+Pour ça j'ai fait `nmap -sN -PE 192.168.64.0/24`
+
+<img width="715" height="233" alt="Image" src="https://github.com/user-attachments/assets/c9588ed7-c439-4608-aee9-0a7c795f61bc" />
 
 #### C. Modification d'adresse IP - pt. 2
 
