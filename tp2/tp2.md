@@ -58,18 +58,20 @@ Sur le réseau d'Ynov, la gateway permet de relier les différents réseaux entr
 
 #### A. Modification d'adresse IP - pt. 1
 
-Tout d'abord l'adresse réseau est `10.33.64.0`
+**J'ai effectué les opérations qui suivent sur mon réseau personnel avec une VM sous ParrotOS car le réseau d'Ynov ne me permettait pas de scanner avec nmap correctement**
+
+<img width="943" height="284" alt="Image" src="https://github.com/user-attachments/assets/931b587a-9189-4636-972c-0913a39755fb" />
+
+Tout d'abord l'adresse réseau que j'ai est `192.168
 
 Donc la première IP disponible est `10.33.64.1` et la dernière `10.33.79.254`.
 Comme les adresses de Réseau & Broadcast ne sont pas disponibles, on celles après & avant.
 
 <img width="435" height="162" alt="Image" src="https://github.com/user-attachments/assets/e0fa2b25-907b-4c34-9da2-1c3488479478" />
 
-
-
-
-
 #### B. nmap
+
+Pour continuer, j'ai scanné l'adresse réseau que j'ai obtenu avec 
 
 #### C. Modification d'adresse IP - pt. 2
 
