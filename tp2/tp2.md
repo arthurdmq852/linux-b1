@@ -79,6 +79,7 @@ Je fais en suite un `ifconfig`pour vérifier si mon adresse IP a bien été chan
 
 <img width="917" height="286" alt="Image" src="https://github.com/user-attachments/assets/b8aaf851-c569-4b25-bda6-c0c3d25a5d62" />
 
+On peut voir que le changement a été correctement effectué.
 
 #### B. nmap
 
@@ -93,3 +94,21 @@ Comme l'indique la ligne `(2 hosts up)`, on peut comprendre que le réseau est u
 #### C. Modification d'adresse IP - pt. 2
 
 ## II. Exploration locale en duo
+
+N/A
+
+## III. Manipulations d'autres outils/protocoles côté client
+
+### 1. DHCP
+
+Pour cette partie, j'ai commencé par afficher l'adresse IP du DHCP avec la commande
+
+
+<img width="869" height="224" alt="Image" src="https://github.com/user-attachments/assets/cda1c9cf-d426-479e-98b4-ed9fe3116a17" />
+
+```
+DHCP4.OPTION[3]:                        dhcp_server_identifier = 192.168.64.1
+DHCP4.OPTION[5]:                        expiry = 1769514754
+```
+
+On a donc l'adresse IP du DHCP et son bail d'expiration
