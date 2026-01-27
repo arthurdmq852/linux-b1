@@ -125,3 +125,14 @@ La première permettant de libérer l'adresse IP utilisé, la seconde pour en as
 <img width="906" height="407" alt="Image" src="https://github.com/user-attachments/assets/aca80feb-7565-4b7c-baa5-4db0b3182c6e" />
 
 ### 2. DNS
+
+Pour cette partie, j'ai tout d'abord effectué la commande `dig google.com` afin d'obtenir l'adresse Ip de google
+et celle d'ynov
+
+`dig google.com = 142.251.142.14`
+
+```
+dig ynov.com = 104.26.11.233
+			   104.26.10.233
+			   172.67.74.226
+```
