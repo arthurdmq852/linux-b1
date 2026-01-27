@@ -71,6 +71,14 @@ J'en déduis que l'adresse réseau est `192.168.64.0`, car lorsque l'on superpos
 
 Comme le broadcast utilise l'adresse `192.168.64.255`, on en déduit que la dernière adresse IP disponible est au moins `192.168.64.254`
 
+Pour continuer, j'ai décidé de changer mon ip en `192.168.64.56`. Pour cela, j'ai utilisé la commande suivante
+
+`ip addr add 192.168.64.56/24 dev enp0s1`
+
+Je fais en suite un `ifconfig`pour vérifier si mon adresse IP a bien été changée,
+
+<img width="917" height="286" alt="Image" src="https://github.com/user-attachments/assets/b8aaf851-c569-4b25-bda6-c0c3d25a5d62" />
+
 
 #### B. nmap
 
@@ -79,6 +87,8 @@ Pour continuer, j'ai scanné l'adresse réseau que j'ai obtenu à l'aide les op�
 Pour ça j'ai fait `nmap -sN -PE 192.168.64.0/24`
 
 <img width="715" height="233" alt="Image" src="https://github.com/user-attachments/assets/c9588ed7-c439-4608-aee9-0a7c795f61bc" />
+
+Comme l'indique la ligne `(2 hosts up)`, on peut comprendre que le réseau est utilisé par deux appareils. En l'occurence ma machine `192.168.64.18`, et probablement par la gateway.
 
 #### C. Modification d'adresse IP - pt. 2
 
