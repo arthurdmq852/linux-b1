@@ -13,3 +13,7 @@ Puis je l'ai ensuite encodé avec **Base64**
 Pour vérifier si le fichier était bien encodé en base64 j'ai fait `cat file_bin_b64`
 
 <img width="606" height="63" alt="Image" src="https://github.com/arthurdmq852/linux-b1/blob/main/tp/tp3/pictures/1.png?raw=true" />
+
+On peut voir que le fichier encodé est un peu plus lourd (65 bytes contre 47 bytes)
+
+<img alt="Image" src="" />
