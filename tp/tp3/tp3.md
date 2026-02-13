@@ -22,11 +22,13 @@ ls -l file_bin*
 
 On peut voir que le fichier encodé est un peu plus lourd (65 bytes contre 47 bytes)
 
-<img alt="Image" src="https://github.com/arthurdmq852/linux-b1/blob/main/tp/tp3/pictures/2.png?raw=true" />
+<img src="pictures/2.png">
 
 On essaye de redécoder le fichier encodé en base64 avec la commande
 `openssl base64 -d -in file_bin_b64 -out file_bin2` pour vérifier si l'on réobtient bien le fichier que l'on avait à l'origine.
 
-*insérer
+<img src="pictures/3.png">
 
 On peut voir que c'est bien le cas grâce au contenu du fichier. De plus `file_bin2` fait bel et bien la même taille que le fichier d'origine `file_bin`.
+
+<img src="pictures/4.png">
