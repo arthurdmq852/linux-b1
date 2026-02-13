@@ -12,3 +12,4 @@ Puis je l'ai ensuite encodé avec **Base64**
 
 Pour vérifier si le fichier était bien encodé en base64 j'ai fait `cat file_bin_b64`
 
+https://github.com/arthurdmq852/linux-b1/blob/main/tp/tp3/pictures/1.png?raw=true
