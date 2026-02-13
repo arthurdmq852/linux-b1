@@ -1,0 +1,24 @@
+chiffrement fiable : chiffre de césar
+
+
+problemes chiffrement symétrique :
+
+meme clé = si qqn l'a il peut décrypter le msg
+
+
+app de chiffrement symétrique :
+wifi
+
+app de chiffrement asymétrique : 
+
+ssh 
+https
+
+
+chiffremetn asymétrique :
+résout le probleme du partage des clés
+deux clés
+
+
+
+
