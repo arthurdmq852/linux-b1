@@ -93,15 +93,67 @@ Comme l'indique la ligne `(2 hosts up)`, on peut comprendre que le réseau est u
 
 #### C. Modification d'adresse IP - pt. 2
 
-## II. Exploration locale en duo
+## II. Exploration locale en duo (Faites avec Zyad & Louis)
 
-N/A
+Pour commencer cette partie du TP, on se connecte en RJ45, puis on vérifie notre ip.
+
+<img src="pictures/1.png">
+
+On ping notre camarade connecté sur le même réseau
+
+<img src="pictures/2.png">
+
+On modifie ensuite notre ip avec 
+
+```
+nmtui
+```
+
+<img src="pictures/3.png">
+
+
+On modifie notre IP, on redémarre le réseau, et on regarde si le changement a été pris en compte
+
+<img src="pictures/4.png">
+
+Pour continuer, on va essayer de désactiver le WI-FI sur un des deux appareils pour que celui connecté serve de passerelle
+
+#### 5. Petit chat privé ?
+
+Pour cette partie, on utilise la commande `netcat -l -p 8888` pour écouter sur le port 8888.
+
+L'appareil 2 se connecte alors à l'ip de l'appareil 1 avec
+
+```
+netcat <ip appareil_1> 8888
+```
+
+Ce qui permet aux deux appareils de communiquer entre eux.
+
+<img src="pictures/5.png">
+	 
+
+### 6. Wireshark
+
+Pour cette partie, on va utiliser Wireshark durant différentes actions réseaux.
+
+Pour débuter, on effectue un ping lorsque Wireshark observe ce qu'il se passe sur ma carte Ethernet
+
+<img src="pictures/7.png">
+
+On peut observer que l'appareil 1 (172.29.144.55) fait des requêtes du moment qu'il ping l'appareil 2 (172.29.144.56)
+
+Lors d'un netcat, on peut voir que ce que l'on écrit dans le terminal apparaît bien dans les trames Wireshark ("test")
+
+<img src="pictures/8.png">
+
+7
 
 ## III. Manipulations d'autres outils/protocoles côté client
 
 ### 1. DHCP
 
-Pour cette partie, j'ai commencé par afficher l'adresse IP du DHCP avec la commande
+Pour cette partie, j'ai commencé par afficher l'adresse IP du DHCP avec la commande.
 
 
 <img width="869" height="224" alt="Image" src="https://github.com/user-attachments/assets/cda1c9cf-d426-479e-98b4-ed9fe3116a17" />
