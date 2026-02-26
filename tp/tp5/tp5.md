@@ -86,7 +86,7 @@ Réponses :
 
 1. Avec le DHCP, un nouvel appareil aurait automatiquement une nouvelle adresse IP.
 
-2. 
+2. Il faut choisir une plage d'adresses privées.
 
 3. Il faut éviter d'inclure l'adresse finissant par 0 & 255 car elles sont utilisées par 
 
@@ -167,9 +167,9 @@ Questions :
 
 Réponses
 
-1. Le NAT est nécessaire avec une interface WAN en NAT car
+1. Le NAT est nécessaire avec une interface WAN en NAT car il n'y a pas assez d'adresse IPv4 pour tout le monde, donc on utilise des adresses privées.
 
-2. La différence entre NAT automatique et manuel est que
+2. La différence entre NAT automatique et manuel est qu'avec l'automatique, le pare-feu fait lui même les règles, tandis qu'un NAT manuel 
 
 ## Partie 5 – Filtrage
 ### 8. Blocage d’un site spécifique
