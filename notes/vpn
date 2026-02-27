@@ -1,0 +1,61 @@
+VPN
+
+c quoi : 
+    tunnel sécurisé a travers un réseau public
+    chiffrement des données
+    authentification des pairs
+    extension logique d'un réseau privé
+pq utiliser un vpn 
+    pr acceder au reseau interne d'une netreprise (teletravail)
+    sécuriser un acces distant
+    interconnecter des sites
+
+fonctionnement général
+
+    authentification    
+    échange de clés
+    création du tunnel
+    chiffrement des flux
+
+si vpn utilisait assymétrique : serait trop lent
+
+ Types de vpn
+   
+vpn dialup  (remote access)
+vpn site to site
+vpn ssl/tls (client to server)
+vpn ipsec
+vpn mpls (opérateur)
+
+
+vpn dial up :
+    connexion ponctuelle
+    client logiciel requis
+    authentification utilisateur
+
+vpn site to site
+    tunnel permanent
+    relie deux réseaux
+    transparent pour les utilisateurs
+    souvent basé sur IPsec
+
+vpn ssl/tls &
+    authentification (PSK / Certificats)
+    chiffrement (aes, chacha20)
+    intégrité (sha2)
+    échange de clés (diffie hellman)
+    nat traversal 
+
+notions importantes
+
+    authentification (psk certificats)
+    chiffrement (aes chacha20)
+    intégrité (sha2)
+    echangé de clés (diffie hellman)
+    nat traversal
+
+Limite d'un VPN
+    protege pas des malwarers internes
+    rend pas anonyme
+    dépend de la sécurité du poste client
+    peut devenir un point d'entrée critique

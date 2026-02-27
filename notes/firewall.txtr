@@ -1,0 +1,81 @@
+
+Firewall :
+    réduis surface d'attaque
+    controle les acces
+    segmenter le réseau
+    journaliser les connexions
+    bloquer les flux internes
+
+types de fireqwall :
+    filtrage stateless (scan chaque paquet indépemmendement)
+    stateful inspection
+    firewall applicatif (layer 7)
+    ngfw (next gen firewall)
+
+fonctionnement du filtrage
+
+peut filtrer selon
+    ip source
+    ip destination
+    port
+    protocole
+    interface
+    état de connexion
+
+parametrage d'un firewall
+    on definit des zones (lan & wan & dmz)
+    définir la politique par défaut (any all)
+    autoriser les flux nécessaire (https etc...)
+    bloquer tt le reste
+    activer les logs
+
+La DMZ
+    Zone intermediaire
+    heberge les services exposés
+    séparée du lan interne
+    réduit les risques de compromission
+
+nat et firewall
+    nat statique (gere tt seul le nat)
+    net dynamique 
+    pat (port adress translation)
+    redirection de port
+
+nat = permet de traduire les adresses locales (pv) en publique
+
+mode de connexion wan
+    ip fixe
+    dhcp
+    pppoe = 
+    4G/5G
+    fibre opérateur
+
+boitier qui reçoit la fibre s'appelle le ONT
+
+
+Segmentation réseau
+
+    VLAN = virtual lan = lan virtualisé (virtualisé car tjrs sur les mêmes interfaces mais segmenté exemple: réseau compta, réseau imprimantes) 
+    Zones Firewall
+    Règles
+
+
+firewall et inspection avancée
+
+    ids/ips
+    inspection ssl
+    filtrage applicatif
+    controle d'url
+    sandbox = environnement isolé utiliser pr executer des fichiers dangereux
+
+gartner ngfw
+    
+principaux acteurs du marché seon le magic quadrant gartner
+    palo alto networks
+    fortinet
+    cisco
+    check point
+    sophos
+
+
+
